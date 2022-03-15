@@ -21,7 +21,7 @@ async def index_files(bot, query):
     if raju == 'reject':
         await query.message.delete()
         await bot.send_message(int(from_user),
-                               f'ʏᴏᴜʀ sᴜʙᴍɪssɪᴏɴ ғᴏʀ ɪɴᴅᴇxɪɴɢ {chat} ʜᴀs ʙᴇᴇɴ ᴅᴇᴄʟɪɴᴅ ʙʏ @basildmx2 (ʀᴇᴀsᴏɴ » ᴍᴀʏʙᴇ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ ʜᴀs ɴᴏ ᴅᴏᴄ,ᴏʀ ᴠɪᴅᴇᴏ «|» ᴛʀʏ ᴀɴᴏᴛʜᴇʀ ᴄʜᴀɴɴᴇʟ)',
+                               f'ʏᴏᴜʀ sᴜʙᴍɪssɪᴏɴ ғᴏʀ ɪɴᴅᴇxɪɴɢ {chat} ʜᴀs ʙᴇᴇɴ ᴅᴇᴄʟɪɴᴅ ʙʏ ᴀᴅᴍɪɴ (ʀᴇᴀsᴏɴ » ᴍᴀʏʙᴇ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ ʜᴀs ɴᴏ ᴅᴏᴄ,ᴏʀ ᴠɪᴅᴇᴏ «|» ᴛʀʏ ᴀɴᴏᴛʜᴇʀ ᴄʜᴀɴɴᴇʟ)',
                                reply_to_message_id=int(lst_msg_id))
         return
 
