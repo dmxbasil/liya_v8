@@ -32,7 +32,7 @@ async def index_files(bot, query):
     await query.answer('Processing...⏳', show_alert=True)
     if int(from_user) not in ADMINS:
         await bot.send_message(int(from_user),
-                               f'ʏᴏᴜʀ sᴜʙᴍɪssɪᴏɴ ғᴏʀ ɪɴᴅᴇxɪɴɢ ᴛʜɪs {chat} ʜᴀs ʙᴇᴇɴ ᴀᴄᴄᴇᴘᴛᴇᴅ ʙʏ @basildmx2 ᴀɴᴅ ғɪʟᴇs ᴡɪʟʟ ʙᴇ ᴀᴅᴅᴇᴅ sᴏᴏɴ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ',
+                               f'ʏᴏᴜʀ sᴜʙᴍɪssɪᴏɴ ғᴏʀ ɪɴᴅᴇxɪɴɢ ᴛʜɪs {chat} ʜᴀs ʙᴇᴇɴ ᴀᴄᴄᴇᴘᴛᴇᴅ ʙʏ ᴀᴅᴍɪɴ ᴀɴᴅ ғɪʟᴇs ᴡɪʟʟ ʙᴇ ᴀᴅᴅᴇᴅ sᴏᴏɴ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ',
                                reply_to_message_id=int(lst_msg_id))
     await msg.edit(
         "Starting Indexing",
