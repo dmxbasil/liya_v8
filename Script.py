@@ -13,7 +13,6 @@ class script(object):
 ✯ ᴍʏ sᴛᴀᴛᴜs » v8.0.9 [ ᴏɴ ʙᴇᴛᴀ ]"""
     SOURCE_TXT = """<b>NOTE:</b>
 - 𝒓𝒆𝒂𝒍𝒍𝒚 𝒔𝒐𝒓𝒓𝒚 𝒊𝒂𝒎 𝒏𝒐𝒕 𝒓𝒆𝒂𝒅𝒚 𝒕𝒐 𝒈𝒊𝒗𝒆 𝒎𝒚 𝒔𝒐𝒖𝒄𝒓𝒆
-- 𝑮𝒓𝒐𝒖𝒑 - 
 
 <b>ᴄʀᴇᴀᴛᴏʀ »</b>
 - <a href=https://t.me/Haroonmc>ʜᴀʀᴏᴏɴ</a>"""
