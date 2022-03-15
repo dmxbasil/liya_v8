@@ -374,7 +374,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     file_id=file_id,
                     caption=f_caption
                     )
-                await query.answer('Check PM, I have sent files in pm',show_alert = True)
+                await query.answer('ᴄʜᴇᴄᴋ ᴘᴍ,ɪ ᴡɪʟʟ sᴇɴᴅ ғɪʟᴇs ɪɴ ᴘᴍ \n\n മൂവി നിങ്ങൾക്ക് personal ആയി അയച്ചിട്ടുണ്ട് ',show_alert = True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !',show_alert = True)
         except PeerIdInvalid:
@@ -416,7 +416,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('× ᴄʜᴀɴɴᴇʟ', url='https://t.me/joinchat/oElQ06pIs8wwYzQ1')
+            InlineKeyboardButton('× ᴄʜᴀɴɴᴇʟ', url='https://t.me/movies4ualways4u')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ ᴍᴇ 🥵', callback_data='about')
@@ -446,7 +446,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('× ᴄʜᴀɴɴᴇʟ', url='https://t.me/joinchat/oElQ06pIs8wwYzQ1'),
+            InlineKeyboardButton('× ᴄʜᴀɴɴᴇʟ', url='https://t.me/movies4ualways4u'),
             InlineKeyboardButton('❍ sᴏᴜᴄʀᴇ', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start'),
