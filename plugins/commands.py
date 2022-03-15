@@ -17,7 +17,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('× ᴄʜᴀɴɴᴇʟ', url='http://t.me/joinchat/yRCeSdSQarE2OTVl')
+                InlineKeyboardButton('× ᴄʜᴀɴɴᴇʟ', url='https://t.me/movies4ualways4u')
             ],
             [
                 InlineKeyboardButton('ʜᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -38,7 +38,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('× ᴄʜᴀɴɴᴇʟ', url='http://t.me/joinchat/yRCeSdSQarE2OTVl')
+            InlineKeyboardButton('× ᴄʜᴀɴɴᴇʟ', url='https://t.me/movies4ualways4u')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ ᴍᴇ 🥵', callback_data='about')
@@ -79,7 +79,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('× ᴄʜᴀɴɴᴇʟ', url='https://t.me/joinchat/oElQ06pIs8wwYzQ1')
+            InlineKeyboardButton('× ᴄʜᴀɴɴᴇʟ', url='https://t.me/movies4ualways4u')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ ᴍᴇ 🥵', callback_data='about')
