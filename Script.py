@@ -4,7 +4,7 @@ class script(object):
     HELP_TXT = """𝑯𝒆𝒚 {}
 𝑯𝒆𝒓𝒆 𝒊𝒔 𝒎𝒚 𝒉𝒆𝒍𝒑 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒔."""
     ABOUT_TXT = """✯ ᴍʏ ɴᴀᴍᴇ » {}
-✯ ᴄʀᴇᴀᴛᴏʀ » <a href=https://t.me/Haroonmc>sʀᴇᴇᴊɪᴛʜ</a>
+✯ ᴄʀᴇᴀᴛᴏʀ » <a href=https://t.me/Haroonmc>ʜᴀʀᴏᴏɴ</a>
 ✯ ʟɪʙʀᴀʀʏ » <a href=https://docs.pyrogram.org/>ᴘʏʀᴏɢʀᴀᴍ</a>
 ✯ ʟᴀɴɢᴜᴀɢᴇ » <a href=https://www.python.org/>ᴘʏᴛʜᴏɴ</a>
 ✯ ᴠᴇʀsɪᴏɴ » 3
@@ -16,7 +16,7 @@ class script(object):
 - 𝑮𝒓𝒐𝒖𝒑 - 
 
 <b>ᴄʀᴇᴀᴛᴏʀ »</b>
-- <a href=https://t.me/Haroonmc>sʀᴇᴇᴊɪᴛʜ</a>"""
+- <a href=https://t.me/Haroonmc>ʜᴀʀᴏᴏɴ</a>"""
     MANUELFILTER_TXT = """ʜᴇʟᴘ » <b>Fɪʟᴛᴇʀs</b>
 
 - 𝑴𝒂𝒏𝒖𝒍 𝑭𝒊𝒍𝒕𝒆𝒓 𝒊𝒔 𝒕𝒉𝒆 𝒇𝒆𝒂𝒕𝒖𝒓𝒆 𝒘𝒆𝒓𝒆 𝒖𝒔𝒆𝒓𝒔 𝒄𝒂𝒏 𝒔𝒆𝒕 𝒂𝒖𝒕𝒐 𝒓𝒆𝒑𝒍𝒊𝒆𝒔 𝒇𝒐𝒓 𝒑𝒂𝒓𝒕𝒊𝒄𝒖𝒍𝒂𝒓 𝒌𝒆𝒚𝒘𝒐𝒓𝒅𝒔 𝒂𝒏𝒅 𝒊 𝒘𝒊𝒍𝒍 𝒓𝒆𝒔𝒑𝒐𝒏𝒅 𝒘𝒉𝒆𝒏 𝒆𝒗𝒆𝒓 𝒕𝒉𝒂𝒕 𝒌𝒆𝒚𝒘𝒐𝒓𝒅 𝒇𝒐𝒖𝒏𝒅 𝒊𝒏 𝒚𝒐𝒖𝒓 𝒄𝒉𝒂𝒕..
