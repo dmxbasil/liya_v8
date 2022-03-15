@@ -1,22 +1,22 @@
 class script(object):
-    START_TXT = """𝑯𝒆𝒍𝒍𝒐 {},
-𝑴𝒚 𝒏𝒂𝒎𝒆 𝒊𝒔 <a href=https://t.me/{}>{}</a> 𝑰 𝒄𝒂𝒏 𝒑𝒓𝒐𝒗𝒊𝒅𝒆 𝒎𝒐𝒗𝒊𝒆𝒔 𝒊𝒏 𝒈𝒓𝒐𝒖𝒑, 𝑱𝒖𝒔𝒕 𝒂𝒅𝒅 𝒎𝒆 𝒕𝒐 𝒖𝒓 𝒈𝒓𝒐𝒖𝒑 𝒂𝒔 𝒂𝒅𝒎𝒊𝒏😍"""
+    START_TXT = """𝑯𝒆𝒚 {},
+𝑴𝒚 𝒏𝒂𝒎𝒆 𝒊𝒔 <a href=https://t.me/{}>{}</a> 𝑰 𝒄𝒂𝒏 𝒑𝒓𝒐𝒗𝒊𝒅𝒆 𝒎𝒐𝒗𝒊𝒆𝒔 𝒊𝒏 𝒈𝒓𝒐𝒖𝒑,"""
     HELP_TXT = """𝑯𝒆𝒚 {}
 𝑯𝒆𝒓𝒆 𝒊𝒔 𝒎𝒚 𝒉𝒆𝒍𝒑 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒔."""
     ABOUT_TXT = """✯ ᴍʏ ɴᴀᴍᴇ » {}
-✯ ᴄʀᴇᴀᴛᴏʀ » <a href=https://t.me/dmx_bots/4>ᴛᴇᴀᴍ ᴅᴍx</a>
+✯ ᴄʀᴇᴀᴛᴏʀ » <a href=https://t.me/Haroonmc>sʀᴇᴇᴊɪᴛʜ</a>
 ✯ ʟɪʙʀᴀʀʏ » <a href=https://docs.pyrogram.org/>ᴘʏʀᴏɢʀᴀᴍ</a>
 ✯ ʟᴀɴɢᴜᴀɢᴇ » <a href=https://www.python.org/>ᴘʏᴛʜᴏɴ</a>
 ✯ ᴠᴇʀsɪᴏɴ » 3
 ✯ ᴅᴀᴛᴀʙᴀsᴇ » <a href=https://www.mongodb.com>ᴍᴏɴɢᴏ ᴅʙ</a>
 ✯ sᴇʀᴠᴇʀ » <a href=https://signup.heroku.com/login>ʜᴇʀᴏᴋᴜ</a>
-✯ ᴍʏ sᴛᴀᴛᴜs » v8.0.2 [ ᴏɴ ʙᴇᴛᴀ ]"""
+✯ ᴍʏ sᴛᴀᴛᴜs » v8.0.9 [ ᴏɴ ʙᴇᴛᴀ ]"""
     SOURCE_TXT = """<b>NOTE:</b>
 - 𝒓𝒆𝒂𝒍𝒍𝒚 𝒔𝒐𝒓𝒓𝒚 𝒊𝒂𝒎 𝒏𝒐𝒕 𝒓𝒆𝒂𝒅𝒚 𝒕𝒐 𝒈𝒊𝒗𝒆 𝒎𝒚 𝒔𝒐𝒖𝒄𝒓𝒆
-- 𝑮𝒓𝒐𝒖𝒑 - https://dmx_chating_2_0 
+- 𝑮𝒓𝒐𝒖𝒑 - 
 
-<b>ᴄʀᴇᴀᴛᴏʀs »</b>
-- <a href=https://t.me/dmx_bots/4>ᴛᴇᴀᴍ ᴅᴍx</a>"""
+<b>ᴄʀᴇᴀᴛᴏʀ »</b>
+- <a href=https://t.me/Haroonmc>sʀᴇᴇᴊɪᴛʜ</a>"""
     MANUELFILTER_TXT = """ʜᴇʟᴘ » <b>Fɪʟᴛᴇʀs</b>
 
 - 𝑴𝒂𝒏𝒖𝒍 𝑭𝒊𝒍𝒕𝒆𝒓 𝒊𝒔 𝒕𝒉𝒆 𝒇𝒆𝒂𝒕𝒖𝒓𝒆 𝒘𝒆𝒓𝒆 𝒖𝒔𝒆𝒓𝒔 𝒄𝒂𝒏 𝒔𝒆𝒕 𝒂𝒖𝒕𝒐 𝒓𝒆𝒑𝒍𝒊𝒆𝒔 𝒇𝒐𝒓 𝒑𝒂𝒓𝒕𝒊𝒄𝒖𝒍𝒂𝒓 𝒌𝒆𝒚𝒘𝒐𝒓𝒅𝒔 𝒂𝒏𝒅 𝒊 𝒘𝒊𝒍𝒍 𝒓𝒆𝒔𝒑𝒐𝒏𝒅 𝒘𝒉𝒆𝒏 𝒆𝒗𝒆𝒓 𝒕𝒉𝒂𝒕 𝒌𝒆𝒚𝒘𝒐𝒓𝒅 𝒇𝒐𝒖𝒏𝒅 𝒊𝒏 𝒚𝒐𝒖𝒓 𝒄𝒉𝒂𝒕..
