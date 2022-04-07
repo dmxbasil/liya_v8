@@ -107,7 +107,7 @@ Total Members = <code>{}</code>
 Added By - {}
 """
     LOG_TEXT_P = """#NewUser
-ʙᴏᴛ = #lisa
+ʙᴏᴛ = #liya
 ID - <code>{}</code>
 Name - {}
 """
